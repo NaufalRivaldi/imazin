@@ -1,0 +1,42 @@
+/* jumbotron */
+.jumbotron {
+	height: 100vh;
+	background: #2d3436;
+	border-radius: 0;
+	color: white;
+}
+
+.jumbotron>.container {
+	display: grid;
+	height: 100%;
+	align-items: center
+}
+
+/* nav */
+.nav-link {
+	color: white !important;
+}
+
+.navbar-nav a:hover {
+	border-bottom: 2px solid #009432;
+	margin-bottom: -1%;
+	transition: all .2s;
+}
+
+/* material */
+.btn-custom {
+	border-radius: 0;
+}
+
+.icon-custom-arrow {
+	font-size: 3em;
+	color: #009432;
+}
+
+.icon-custom-arrow :hover {
+	color: white;
+}
+
+.center {
+	margin-top: -4%;
+}
