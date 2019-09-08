@@ -1,9 +1,13 @@
 /* jumbotron */
 .jumbotron {
 	height: 100vh;
-	background: #2d3436;
+	background: url('../img/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	border-radius: 0;
 	color: white;
+	margin-bottom: 0;
 }
 
 .jumbotron>.container {
@@ -23,6 +27,31 @@
 	transition: all .2s;
 }
 
+nav.black {
+	background: #141414;
+}
+
+/* jasa */
+.k-dark {
+	background: #222222;
+	margin: 0;
+	width: 100%;
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.box-jasa {
+	width: 100%;
+	height: 350px;
+	text-align: center;
+}
+
+.img-jasa {
+	margin: auto;
+	margin-bottom: 5%;
+}
+
 /* material */
 .btn-custom {
 	border-radius: 0;
@@ -39,4 +68,75 @@
 
 .center {
 	margin-top: -4%;
+}
+
+.hr-custom-green {
+	background: #009432;
+	height: 2px;
+	width: 25%;
+}
+
+.typewriter {
+	display: inline-block;
+}
+
+.typewriter-text .display-2 {
+	display: inline-block;
+	overflow: hidden;
+	letter-spacing: 2px;
+	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+	white-space: nowrap;
+	font-size: 6em;
+	font-weight: 500;
+	border-right: 4px solid orange;
+	box-sizing: border-box;
+}
+
+/* screen mobile */
+@media (max-width: 768px) {
+	.navbar {
+		background: #141414;
+	}
+
+	.navbar-toggler {
+		background: #009432;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.typewriter-text .display-2 {
+		font-size: 4em;
+	}
+
+	.text-hidden {
+		display: none;
+	}
+
+	.btn-mobile {
+		margin-top: -30%;
+	}
+}
+
+
+/* keyframes */
+@keyframes typing {
+	from {
+		width: 0%
+	}
+
+	to {
+		width: 100%
+	}
+}
+
+@keyframes blink {
+
+	from,
+	to {
+		border-color: transparent
+	}
+
+	50% {
+		border-color: orange;
+	}
 }
