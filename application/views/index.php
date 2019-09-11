@@ -3,13 +3,16 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <!-- font awesome -->
         <link rel="stylesheet" href="<?= base_url('asset/css/all.css') ?>">
+
+        <!-- swiper -->
+        <link rel="stylesheet" href="<?= base_url('asset/css/swiper.min.css') ?>">
 
         <!-- style css -->
         <link rel="stylesheet" href="<?= base_url('asset/css/style.css') ?>">
@@ -85,28 +88,166 @@
                     </div>
                     <div class="col-md-4">
                         <div class="box-jasa">
-                            <img src="<?= base_url('asset/img/icon/web-icon.png') ?>" alt="" width="30%" class="img-jasa">
-                            <h5 class="text-muted">Web Development</h5>
+                            <img src="<?= base_url('asset/img/icon/camera-icon.png') ?>" alt="" width="30%" class="img-jasa">
+                            <h5 class="text-muted">Photoshoot</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rem cupiditate ea laborum illum nulla perferendis, laudantium quos, error aperiam qui, provident minus corporis aut molestiae vitae sed atque autem.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="box-jasa">
-                            <img src="<?= base_url('asset/img/icon/web-icon.png') ?>" alt="" width="30%" class="img-jasa">
-                            <h5 class="text-muted">Web Development</h5>
+                            <img src="<?= base_url('asset/img/icon/photo-icon.png') ?>" alt="" width="30%" class="img-jasa">
+                            <h5 class="text-muted">Photobook</h5>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni rem cupiditate ea laborum illum nulla perferendis, laudantium quos, error aperiam qui, provident minus corporis aut molestiae vitae sed atque autem.</p>
                         </div>
+                    </div>
+                </div>
+                <div class="row align-content-center justify-content-center" style="margin-top: 5%">
+                    <div class="col-md-6">
+                        <h3 class="display-4 display-side-border">
+                            Mengapa memilih kami?
+                        </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia nam laboriosam pariatur eum tempore, fugiat temporibus saepe sed esse cumque nesciunt aliquid mollitia a sit quidem culpa ratione repellat distinctio.<br>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae explicabo necessitatibus consequatur quasi similique esse vel velit, numquam vero, eius eveniet, minus a! Reiciendis sint magni aut? Ducimus, molestiae dignissimos.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- jasa -->
 
+        <!-- porfolio -->
+        <div class="porfolio-content">
+            <div class="container">
+                <div class="row align-content-center justify-content-center">
+                    <div class="col-8 text-center">
+                        <h3 class="display-4">
+                            <font color="#009432">#Porfolio</font> kami
+                        </h3>
+                        <p class="lead">Kami juga sudah memiliki berbagai project yang sudah ditangani, antara lainnya.</p>
+                        <hr class="hr-custom-green">
+                    </div>  
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- pkkin for nanti pas dah buat db -->
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- porfolio -->
+
+        <!-- team -->
+        <div class="team-content">
+            <div class="container">
+                <div class="row align-content-center justify-content-center">
+                    <div class="col-8 text-center">
+                        <h3 class="display-4">
+                            <font color="#009432">#Team</font> kami
+                        </h3>
+                        <hr class="hr-custom-green">
+                    </div>  
+                </div>
+                <div class="row" style="margin-top:3%">
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/noval.png') ?>)"></div>
+                            <h5>Naufal Rivaldi</h5>
+                            <p>Web Development | Desainer</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/radit.png') ?>)"></div>
+                            <h5>Debby Raditya</h5>
+                            <p>Photography | Desainer | Video Editor</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/bayu.png') ?>)"></div>
+                            <h5>Bayu Arimbawa</h5>
+                            <p>Maintenance | Photography</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team -->
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- swiper -->
+        <script src="<?= base_url('asset/js/swiper.min.js') ?>"></script>
+
+        <!-- custom js -->
         <script src="<?= base_url('asset/js/custom-script.js') ?>"></script>
     </body>
 </html>
