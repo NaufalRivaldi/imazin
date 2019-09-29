@@ -200,6 +200,40 @@
         </div>
         <!-- porfolio -->
 
+        <!-- Artikel -->
+        <div class="artikel-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h3 class="display-4">
+                            <font color="#009432">#Artikel</font>
+                        </h3>
+                    </div>
+                </div>
+                <div class="row" style="margin-top:3%">
+                    <!-- isi artikel 4 konten terbaru -->
+                    <?php for($i=1; $i<4; $i++){ ?>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="<?= base_url('asset/img/porfolio/1.png') ?>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+                <div class="row" style="margin-top:3%">
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-outline-success btn-lg">Lihat Artikel Lain</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Artikel -->
+
         <!-- team -->
         <div class="team-content">
             <div class="container">
@@ -237,6 +271,20 @@
             </div>
         </div>
         <!-- team -->
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>KONTAK</h4>
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

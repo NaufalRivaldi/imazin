@@ -66,11 +66,28 @@ nav.black {
 }
 
 /* porfolio */
+
+/* artikel */
+.artikel-content {
+	margin: 0;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.art-container {
+	width: 100%;
+	height: 200px;
+	background: #009432;
+}
+
+/* artikel */
+
+/* team */
 .team-content {
 	margin: 0;
 	width: 100%;
 	padding-top: 5%;
-	padding-bottom: 5%;
 }
 
 .img-team {
@@ -81,6 +98,15 @@ nav.black {
 	margin: auto;
 	margin-bottom: 5%;
 	border-radius: 50%;
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	height: 300px;
+	background: #222222;
+	color: white;
+	padding-top: 3%;
 }
 
 /* material */
