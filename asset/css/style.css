@@ -109,6 +109,16 @@ nav.black {
 	padding-top: 3%;
 }
 
+.text-footer a {
+	color: white;
+	padding: 1%;
+	font-size: 1.5em;
+}
+
+.text-footer a:hover {
+	color: #009432;
+}
+
 /* material */
 .btn-custom {
 	border-radius: 0;

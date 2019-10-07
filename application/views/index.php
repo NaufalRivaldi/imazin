@@ -276,11 +276,20 @@
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <h4>KONTAK</h4>
+                    <div class="col-md-12 text-center">
+                        <h4 class="display-4">Buat project kamu?</h4><br>
+                        <a href="#" class="btn btn-outline-success btn-lg">Mulai Project</a>
                     </div>
-                    <div class="col-md-4"></div>
-                    <div class="col-md-4"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <hr class="hr-custom-green">
+                        <p class="text-footer">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="$"><i class="fab fa-youtube"></i></a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
