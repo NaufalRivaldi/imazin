@@ -1,9 +1,11 @@
 // custom navbar
 $(window).on('scroll', function () {
 	if ($(window).scrollTop()) {
-		$('.custom-navbar').addClass('black');
+		$('.custom-navbar').removeClass('mt-4');
+		$('.custom-navbar').addClass('bg-white');
 	} else {
-		$('.custom-navbar').removeClass('black');
+		$('.custom-navbar').addClass('mt-4');
+		$('.custom-navbar').removeClass('bg-white');
 	}
 });
 
