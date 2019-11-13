@@ -85,6 +85,57 @@ body {
 
 /* jasa */
 
+/* porfolio */
+#porfolio {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-bottom: 3%;
+}
+
+/* swiper */
+.swiper-container {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.swiper-slide {
+	background-position: center;
+	background-size: cover;
+	width: 400px;
+	height: 320px;
+	background: #fff;
+	border: 2px solid #2980b9;
+	padding: 1%;
+}
+
+.swiper-slide>.detail {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.swiper-slide>.detail a {
+	text-decoration: none;
+	color: #141414;
+}
+
+.swiper-slide>.detail a:hover {
+	color: #2980b9;
+}
+
+/* porfolio */
+
+/* artikel */
+#artikel {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	padding-bottom: 3%;
+}
+
+/* artikel */
+
 /* button */
 .btn-blue {
 	background: linear-gradient(90deg, rgba(231, 76, 60, 1) 0%, rgba(192, 57, 43, 1) 100%);

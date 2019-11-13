@@ -82,7 +82,7 @@
             <div class="container">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem voluptate dicta odit eligendi magnam excepturi consequatur impedit distinctio alias, similique necessitatibus amet? Doloribus provident blanditiis enim perspiciatis nisi officia cum.</p>
                 <div class="row justify-content-md-center" style="margin-top: 4%">
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="jasa-kotak">
                             <img src="<?= base_url('asset/img/icon/camera-icon.png') ?>" alt="icon" width="30%">
                             <h5 class="mt-2 font-weight-bold">Web Development</h5>
@@ -93,7 +93,7 @@
                         <span class="hr1"></span>
                         <span class="hr2"></span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="jasa-kotak">
                             <img src="<?= base_url('asset/img/icon/camera-icon.png') ?>" alt="icon" width="30%">
                             <h5 class="mt-2 font-weight-bold">Web Development</h5>
@@ -104,7 +104,7 @@
                         <span class="hr1"></span>
                         <span class="hr2"></span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="jasa-kotak">
                             <img src="<?= base_url('asset/img/icon/camera-icon.png') ?>" alt="icon" width="30%">
                             <h5 class="mt-2 font-weight-bold">Web Development</h5>
@@ -115,7 +115,7 @@
                         <span class="hr1"></span>
                         <span class="hr2"></span>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="jasa-kotak">
                             <img src="<?= base_url('asset/img/icon/camera-icon.png') ?>" alt="icon" width="30%">
                             <h5 class="mt-2 font-weight-bold">Web Development</h5>
@@ -130,6 +130,113 @@
             </div>
         </section>
         <!-- jasa -->
+
+        <!-- porfolio -->
+        <section id="porfolio" class="mt-5">
+            <h3 class="display-4">PORFOLIO KAMI</h3>
+            <p class="lead">Kami juga sudah memiliki berbagai project yang sudah ditangani.</p>
+            <hr class="hr-blue mb-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- pkkin for nanti pas dah buat db -->
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="imgbox">
+                                        <img src="<?= base_url('asset/img/porfolio/1.png') ?>" alt="porfolio" width="100%">
+                                    </div>
+                                    <div class="detail">
+                                        <a href="#">
+                                            <h4>Toko Cat Citra Warna</h4>
+                                            www.cwabali.com
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- porfolio -->
+
+        <!-- artikel -->
+        <section id="artikel">
+            <h3 class="display-4">ARTIKEL</h3>
+            <hr class="hr-blue mb-5">
+
+            <div class="container">
+                <div class="row" style="margin-top:3%">
+                    <!-- isi artikel 4 konten terbaru -->
+                    <?php for($i=1; $i<4; $i++){ ?>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="<?= base_url('asset/img/porfolio/1.png') ?>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Judul Artikel</h5>
+                                
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
+                <div class="row" style="margin-top:3%">
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-outline-info btn-sm">Lihat Artikel Lain</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- artikel -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
