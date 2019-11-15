@@ -222,7 +222,7 @@
                             <img src="<?= base_url('asset/img/porfolio/1.png') ?>" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Judul Artikel</h5>
-                                
+                                    
                                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
@@ -237,6 +237,61 @@
             </div>
         </section>
         <!-- artikel -->
+
+        <!-- team -->
+        <section id="team">
+            <h3 class="display-4">Team Kami</h3>
+            <p class="lead">Kami memiliki keahlian masing - masing pada bidangnya.</p>
+            <hr class="hr-blue mb-5">
+
+            <div class="container">
+                <div class="row" style="margin-top:3%">
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/noval.png') ?>)"></div>
+                            <h5>Naufal Rivaldi</h5>
+                            <p>Web Development | Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/radit.png') ?>)"></div>
+                            <h5>Debby Raditya</h5>
+                            <p>Photography | Designer | Video Editor</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="box-jasa">
+                            <div class="img-team" style="background-image: url(<?= base_url('asset/img/team/bayu.png') ?>)"></div>
+                            <h5>Bayu Arimbawa</h5>
+                            <p>Maintenance | Photography</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </section>
+        <!-- team -->
+
+        <!-- footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h3 class="display-4">Buat Projectmu<br>Sekarang</h3>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-2">Start!</a>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dicta libero doloremque rem obcaecati. Ullam veritatis eum nemo cum dolore tempora! Beatae aliquid consequatur saepe possimus libero, reiciendis nam hic?</p>
+                    </div>
+                    <div class="col-md-6 text-right right-border">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, odit assumenda libero eveniet voluptatibus incidunt officia dicta error animi, quis tempore unde. Voluptatibus accusantium eos consequatur, enim porro expedita dolores?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
