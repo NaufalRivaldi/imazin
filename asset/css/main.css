@@ -158,15 +158,33 @@ body {
 
 /* footer */
 #footer {
-	background: #141414;
+	background: #1b2531;
 	width: 100%;
 	height: auto;
 	padding: 3% 0% 3% 0%;
 	color: #fff;
 }
 
+#footer p {
+	color: rgb(165, 165, 165);
+}
+
+.bullet-gone {
+	list-style-type: none;
+	margin-left: -15%;
+}
+
+.bullet-gone a {
+	color: rgb(165, 165, 165);
+}
+
 .right-border {
 	border-right: 2px solid #fff;
+}
+
+.text-sosmed a {
+	margin-right: 20px;
+	color: rgb(165, 165, 165);
 }
 
 /* footer */

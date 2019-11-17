@@ -76,7 +76,7 @@
 
         <!-- jasa -->
         <section id="jasa">
-            <h3 class="display-4">JASA KAMI</h3>
+            <h1 class="display-4">JASA KAMI</h1>
             <hr class="hr-blue mb-5">
 
             <div class="container">
@@ -133,7 +133,7 @@
 
         <!-- porfolio -->
         <section id="porfolio" class="mt-5">
-            <h3 class="display-4">PORFOLIO KAMI</h3>
+            <h1 class="display-4">PORFOLIO KAMI</h1>
             <p class="lead">Kami juga sudah memiliki berbagai project yang sudah ditangani.</p>
             <hr class="hr-blue mb-5">
 
@@ -210,7 +210,7 @@
 
         <!-- artikel -->
         <section id="artikel">
-            <h3 class="display-4">ARTIKEL</h3>
+            <h1 class="display-4">ARTIKEL</h1>
             <hr class="hr-blue mb-5">
 
             <div class="container">
@@ -240,7 +240,7 @@
 
         <!-- team -->
         <section id="team">
-            <h3 class="display-4">Team Kami</h3>
+            <h1 class="display-4">Team Kami</h1>
             <p class="lead">Kami memiliki keahlian masing - masing pada bidangnya.</p>
             <hr class="hr-blue mb-5">
 
@@ -277,16 +277,56 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <h3 class="display-4">Buat Projectmu<br>Sekarang</h3>
-                        <a href="#" class="btn btn-outline-light btn-lg mt-2">Start!</a>
+                        <h3 class="display-4">Tertarik dengan jasa kami?</h3>
+                        <h3 class="display-4">Buat Projectmu Sekarang</h3>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-2">Buat Projectmu!</a>
                     </div>
                 </div>
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore dicta libero doloremque rem obcaecati. Ullam veritatis eum nemo cum dolore tempora! Beatae aliquid consequatur saepe possimus libero, reiciendis nam hic?</p>
+                <div class="row mt-5">
+                    <div class="col-md-3">
+                        <h5>Kontak Imazin</h5>
+                        <p>
+                            0896-2339-6091<br>
+                            info@imazin.id
+                        </p>
                     </div>
-                    <div class="col-md-6 text-right right-border">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, odit assumenda libero eveniet voluptatibus incidunt officia dicta error animi, quis tempore unde. Voluptatibus accusantium eos consequatur, enim porro expedita dolores?</p>
+                    <div class="col-md-3">
+                        <h5>Link</h5>
+                        <p>
+                            <ul>
+                                <li class="bullet-gone"><a href="#">Jasa</a></li>
+                                <li class="bullet-gone"><a href="#">Porfolio</a></li>
+                                <li class="bullet-gone"><a href="#">Artikel</a></li>
+                                <li class="bullet-gone"><a href="#">Team</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Ikuti Kami</h5>
+                        <p class="text-sosmed">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Berlangganan News Imazin</h5>
+                        <p>
+                            <form action="" method="POST">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+                                    <div class="input-group-append">
+                                        <input type="submit" class="btn btn-info" type="button" id="button-addon2" value="Go!">
+                                    </div>
+                                </div>
+                            </form>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr style="background: rgb(165, 165, 165)">
+                        <p class="text-center">Copyright &copy;2019 Imazin.</p>
                     </div>
                 </div>
             </div>
